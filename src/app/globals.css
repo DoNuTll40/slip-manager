@@ -1,0 +1,5 @@
+@tailwind base; @tailwind components; @tailwind utilities;
+body { @apply bg-mist text-ink antialiased; }
+:focus-visible { outline: 2px solid #0e7c6b; outline-offset: 2px; }
+@media (prefers-reduced-motion: reduce) { * { animation: none !important; transition: none !important; } }
+:root { --jade: 14 124 107; --jade-soft: 223 243 239; }

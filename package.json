@@ -1,0 +1,12 @@
+{
+  "name": "slip-manager",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": { "dev": "next dev", "build": "next build", "start": "next start", "test": "node --test" },
+  "dependencies": {
+    "next": "^15.0.0", "react": "^19.0.0", "react-dom": "^19.0.0",
+    "lucide-react": "^0.453.0", "tesseract.js": "^5.1.1", "zod": "^3.23.8"
+  },
+  "devDependencies": { "tailwindcss": "^3.4.14", "postcss": "^8.4.47", "autoprefixer": "^10.4.20" }
+}
